@@ -5,8 +5,8 @@ import { useState, useEffect, useCallback } from "react";
 // 2. Click "New Bin" — create one bin and copy the BIN ID (looks like 64abc123...)
 // 3. Go to API Keys tab — copy your Master Key (starts with $2b$...)
 // 4. Paste both below:
-const JSONBIN_BIN_ID  = "REPLACE_WITH_YOUR_BIN_ID";
-const JSONBIN_API_KEY = "REPLACE_WITH_YOUR_API_KEY";
+const JSONBIN_BIN_ID  = "69d136b6aaba882197c49d9f";
+const JSONBIN_API_KEY = "$2a$10$gaQ/znDxjqdCxyU694NX0u5dPY50G9ehO7rTBbZMFrUgPlgpn8xlW";
 const JSONBIN_URL     = `https://api.jsonbin.io/v3/b/${JSONBIN_BIN_ID}`;
 
 const ADMIN_PASSWORD = "golf2026";

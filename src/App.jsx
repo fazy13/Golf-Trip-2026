@@ -1,3 +1,5 @@
+import { useState, useEffect, useCallback } from "react";
+
 // ── JSONBIN CONFIG ─────────────────────────────────────────────────────────────
 // 1. Go to jsonbin.io and create a free account
 // 2. Click "New Bin" — create one bin and copy the BIN ID (looks like 64abc123...)
